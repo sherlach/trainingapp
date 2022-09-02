@@ -1,0 +1,15 @@
+/* Win98 theming */
+@import url(https://unpkg.com/98.css);
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: url("desktop.jpg") no-repeat 50% 50% black;
+}
+
+html * {
+    cursor: url('cursor.cur'), default;
+}
